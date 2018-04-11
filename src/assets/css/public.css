@@ -1,0 +1,28 @@
+/**
+* 需要打包的公共样式
+*/
+
+/*箭头*/
+.dd-right-arrow{content: "";
+  position: absolute;
+  right: 51.2px;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+  border-left: 1px solid currentColor;
+  border-top: 1px solid currentColor;
+  transform: translate3d(0,-50%,0) rotate(135deg);
+  -webkit-transform: translate3d(0,-50%,0) rotate(135deg);
+}
+.dd-left-arrow{
+  content: "";
+  position: absolute;
+  right: 51.2px;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+  border-right: 1px solid currentColor;
+  border-top: 1px solid currentColor;
+  transform: translate3d(0,-50%,0) rotate(135deg);
+  -webkit-transform: translate3d(0,-50%,0) rotate(135deg);
+}
